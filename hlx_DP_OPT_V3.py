@@ -44,7 +44,7 @@ cl_mdl = p.load(cl_mdl_file)
 p_mdl = p.load(P_mdl_file)
 
 DP_low = 0.1
-DP_high = 0.4
+DP_high = 0.25
 
 
 
@@ -255,3 +255,4 @@ def CH_OPT():
 
 # Run main optimization
 CH_OPT()
+
